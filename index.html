@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <style>
+        .grid-x, .grid-y {
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+<div class="page-wrap">
+    <header class=" [ grid-container grid-container-padded ] ">
+        <div class=" [ grid-x ] " style="height: 100vh;">
+            <div class=" [ large-6 cell ] " style="background: #ccc;">
+                <div class="large-full cell" style="background: #999; height:75px">
+
+                </div>
+            </div>
+            <div class=" [ large-6 cell ] " style="background: #999;">
+                <div class="large-full cell" style="background: #ccc; height:75px">
+
+                </div>
+            </div>
+            <div style="position: absolute; width: 75px; background: #000; height: calc(100vh - 75px); right: 0; top: 75px;">
+
+            </div>
+        </div>
+    </header>
+    <header class=" [ grid-container grid-container-padded ] " style="border-top: 2px solid #fff;">
+        <div class=" [ grid-x ] " style="height: 100vh;">
+            <div class=" [ large-6 cell ] " style="background: #ccc;">
+                Cell 1
+            </div>
+            <div class=" [ large-6 cell ] " style="background: #999;">
+                Cell 2
+            </div>
+        </div>
+    </header>
+</div>
+</body>
+</html>
